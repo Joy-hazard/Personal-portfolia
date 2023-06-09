@@ -8,7 +8,7 @@ $email = $_POST["email"];
 $comment = $_POST["comment"];
 
 
-$sql = "INSERT INTO feedback (phone, name, email, comment ) VALUES ('$phone', '$name','$email','$comment')";
+$sql = "INSERT INTO contact (phone, name, email, comment ) VALUES ('$phone', '$name','$email','$comment')";
 
 $rs = mysqli_query($con,$sql);
 
